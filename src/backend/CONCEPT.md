@@ -15,7 +15,7 @@ A **privacy-preserving, decentralized media sharing framework** that combines po
 ## Core Vision
 
 ```mermaid
-graph LR
+graph TD
     A["🎬 Publisher<br/>Captures Evidence"] -->|1. Extract Fingerprint| B["🎵 Audio Signature<br/>Unique Proof"]
     B -->|2. Encrypt & Upload| C["💾 Decentralized Storage<br/>IPFS/Arweave"]
     C -->|3. Broadcast to Peers| D["🌐 Peer Network<br/>Local Mesh"]
